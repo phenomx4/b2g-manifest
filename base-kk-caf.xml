@@ -2,10 +2,11 @@
 <manifest>
 
   <include name="base-kk.xml"/>
-  <remote name="Cyanogenmod" fetch="git://github.com/CyanogenMod/"/>
 
-  <project name="android_external_curl" path="external/curl" remote="Cyanogenmod" revision="cm-11.0" />
-  <project name="android_external_icu4c" path="external/icu4c" remote="Cyanogenmod" revision="cm-11.0" />
+  <project name="android_external_curl" path="external/curl" remote="aosp"/>
+  <project name="platform/external/icu4c" path="external/icu4c" remote="aosp"/>
+  <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="b2g-4.4.2_r1"/>
+  <project name="platform_system_core" path="system/core" remote="b2g" revision="b2g-4.4.2_r1"/>
   <remove-project name="platform/frameworks/base"/>
   <remove-project name="platform/frameworks/native"/>
   <remove-project name="platform/hardware/libhardware"/>
