@@ -1,0 +1,24 @@
+<?xml version="1.0" ?><manifest>
+
+  <include name="base-kk-caf.xml"/>
+
+  <default remote="caf" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
+  <remote name="phenomx4" fetch="git://github.com/phenomx4/"/>
+
+  <!-- Nex specific things -->
+  <project name="android_device_zte_nex" path="device/zte/nex" remote="phenomx4" revision="cm11"/>
+  <project name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon"/>
+  <project name="android_kernel_zte_nex" path="kernel/zte/nex" remote="phenomx4" revision="Kitkat"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
+  <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt"/>
+  <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
+  <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster"/>
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
+  <project name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960"/>
+  <project name="platform/hardware/qcom/power" path="hardware/qcom/power"/>
+  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
+
+</manifest>
