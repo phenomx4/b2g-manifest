@@ -2,8 +2,9 @@
 <manifest>
 
   <include name="base-kk.xml"/>
+  <remote name="Cyanogenmod" fetch="git://github.com/CyanogenMod/"/>
 
-  <project name="platform/external/curl" path="external/curl"/>
+  <project name="platform/external/curl" path="external/curl" remote="Cyanogenmod" revision="cm-11.0" />
   <project name="platform/external/icu4c" path="external/icu4c" />
   <remove-project name="platform/frameworks/base"/>
   <remove-project name="platform/frameworks/native"/>
