@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><manifest>
 
-  <include name="base-kk-caf.xml"/>
+  <include name="base-kk-aosp.xml"/>
 
   <default remote="caf" revision="refs/tags/android-4.4.2_r1" sync-j="4"/>
   <remote name="phenomx4" fetch="git://github.com/phenomx4/"/>
